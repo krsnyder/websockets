@@ -1,5 +1,5 @@
 const server = require('./server');
 
-server.listen(8000, () => {
+const app = server.listen(8000, () => {
   console.log("run it")
 });
