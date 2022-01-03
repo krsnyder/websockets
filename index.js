@@ -1,5 +1,5 @@
-const server = require("express")();
+const server = require('./server');
 
-const PORT = "4000";
-
-server.listen()
+server.listen(8000, () => {
+  console.log("run it")
+});
